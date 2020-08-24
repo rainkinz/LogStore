@@ -10,7 +10,7 @@ struct LogStore {
     static var log: [String] = []
 }
 
-func printLog(_ string: String) {
+public func printLog(_ string: String) {
     print(string)
     
     LogStore.log.append(string)
